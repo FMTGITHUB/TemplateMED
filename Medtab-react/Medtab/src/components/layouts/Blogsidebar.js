@@ -45,7 +45,7 @@ class Blogsidebar extends Component {
                 </div>
                 {/* Category Widget */}
                 <div className="widget widget-categories">
-                    <h5 className="widget-title">Categories</h5>
+                    <h5 className="widget-title">Categorias</h5>
                     <ul>
                         {/* Data */}
                         {category.map((item, i) => (
@@ -58,7 +58,7 @@ class Blogsidebar extends Component {
                 </div>
                 {/* Recent Posts Widget */}
                 <div className="widget widget-sigma-recent-posts">
-                    <h5 className="widget-title">Recent Post</h5>
+                    <h5 className="widget-title">Posteos recientes</h5>
                     {/* Data */}
                     {getRecentPost().map((item, i) => (
                         <div className="sigma_recent-post" key={i}>
@@ -81,15 +81,15 @@ class Blogsidebar extends Component {
                 </div>
                 {/* Subscribe Widget */}
                 <div className="widget widget-newsletter">
-                    <h5 className="widget-title">Join Newsletter</h5>
+                    <h5 className="widget-title">Unirse al boletin informativo</h5>
                     <form>
                         <input type="email" name="email" placeholder="Enter your email" />
-                        <button type="button" className="btn-block mt-4">Subscribe</button>
+                        <button type="button" className="btn-block mt-4">Subscribirse</button>
                     </form>
                 </div>
                 {/* Recent Posts Widget */}
                 <div className="widget widget-sigma-recent-posts style-3">
-                    <h5 className="widget-title">Recent Post</h5>
+                    <h5 className="widget-title">Posteos recientes</h5>
                     {/* Data */}
                     {getRecentPost().map((item, i) => (
                         <div className="sigma_recent-post" key={i}>
@@ -118,7 +118,7 @@ class Blogsidebar extends Component {
                 </div>
                 {/* Tags Widget */}
                 <div className="widget tagcloud">
-                    <h5 className="widget-title">Popular Tags</h5>
+                    <h5 className="widget-title">Etiquetas populares</h5>
                     {/* Data */}
                     {tags.map((item, i) => (
                         <Link to={"/blog/tag/" + item.id} key={i}>{item.title}</Link>
