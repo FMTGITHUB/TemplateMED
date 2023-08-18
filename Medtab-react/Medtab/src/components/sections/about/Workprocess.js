@@ -10,15 +10,15 @@ class Workprocess extends Component {
                     <div className="row align-items-center mb-5">
                         <div className="col-lg-5">
                             <div className="section-title">
-                                <span className="subtitle">Work Process</span>
-                                <h3 className="title mb-0">How it Works?</h3>
+                                <span className="subtitle">Proceso laboral</span>
+                                <h3 className="title mb-0">¿Cómo funciona?</h3>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <p className="mb-0">Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis.</p>
                         </div>
                         <div className="col-lg-3 text-lg-right">
-                            <Link to="/appointment" className="sigma_btn mt-4 mt-lg-0">Make Appointment</Link>
+                            <Link to="/appointment" className="sigma_btn mt-4 mt-lg-0">Programar una consulta</Link>
                         </div>
                     </div>
                     <div className="row sigma_info-wrapper style-25">
