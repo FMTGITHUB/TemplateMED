@@ -98,19 +98,19 @@ class Footer extends Component {
                                     <h5 className="widget-title">Useful Links</h5>
                                     <ul className="sigma_footer-links">
                                         <li>
-                                            <Link to="/">Home</Link>
+                                            <Link to="/">Inicio</Link>
                                         </li>
                                         <li>
-                                            <Link to="/about">About Us</Link>
+                                            <Link to="/about">Sobre nosotros</Link>
                                         </li>
                                         <li>
-                                            <Link to="/blog">News</Link>
+                                            <Link to="/blog">Noticias</Link>
                                         </li>
                                         <li>
-                                            <Link to="/doctor-grid">Doctors</Link>
+                                            <Link to="/doctor-grid">Doctores</Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact">Contact Us</Link>
+                                            <Link to="/contact">Contáctenos</Link>
                                         </li>
                                     </ul>
                                 </div>

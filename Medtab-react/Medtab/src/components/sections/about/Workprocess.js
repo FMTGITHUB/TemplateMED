@@ -34,7 +34,7 @@ class Workprocess extends Component {
                                     <div className="sigma_info-description mt-4 mt-xl-0">
                                         <h5 dangerouslySetInnerHTML={{ __html: item.title }} />
                                         <p>{item.text}</p>
-                                        <span className="steps">Step {1 + i}</span>
+                                        <span className="steps">Paso {1 + i}</span>
                                         <span className="pulsive-dot" />
                                     </div>
                                 </div>
