@@ -40,28 +40,28 @@
     },
     {
         "id": 3,
-        "linkText": "Pages",
+        "linkText": "Páginas",
         "child": true,
         "submenu": [
             {
                 "id": 3.1,
                 "link": "/about",
-                "linkText": "About Us"
+                "linkText": "Sobre nosotros"
             },
             {
                 "id": 3.2,
                 "link": "/services",
-                "linkText": "Services"
+                "linkText": "Servicios"
             },
             {
                 "id": 3.3,
                 "link": "/service-details/1",
-                "linkText": "Service Details"
+                "linkText": "Detalle de servicios"
             },
             {
                 "id": 3.4,
                 "link": "/faqs",
-                "linkText": "FAQ's"
+                "linkText": "Preguntas frecuentes"
             },
             {
                 "id": 3.5,
@@ -77,7 +77,7 @@
     },
     {
         "id": 4,
-        "linkText": "Clinics",
+        "linkText": "Clínicas",
         "child": true,
         "submenu": [
             {
@@ -99,7 +99,7 @@
     },
     {
         "id": 5,
-        "linkText": "Doctors",
+        "linkText": "Doctores",
         "child": true,
         "submenu": [
             {
@@ -122,6 +122,6 @@
     {
         "id": 6,
         "link": "/contact",
-        "linkText": "Contact Us"
+        "linkText": "Contáctanos"
     }
 ]
