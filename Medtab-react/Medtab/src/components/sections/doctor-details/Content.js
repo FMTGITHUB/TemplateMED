@@ -55,29 +55,29 @@ class Content extends Component {
                                         <div className="row no-gutters">
                                             <div className="col-md-4">
                                                 <div className="menu nav-item">
-                                                    <Link to="#" className="nav-link active p-0" onClick={() => document.getElementById("overview").scrollIntoView({ behavior: 'smooth' })}>Overview</Link>
+                                                    <Link to="#" className="nav-link active p-0" onClick={() => document.getElementById("overview").scrollIntoView({ behavior: 'smooth' })}>Descripción</Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="menu nav-item">
-                                                    <Link to="#" className="nav-link p-0" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Location &amp; Contact</Link>
+                                                    <Link to="#" className="nav-link p-0" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Ubicacion &amp; Contacto</Link>
                                                 </div>
                                             </div>
                                             <div className="col-md-4">
                                                 <div className="menu nav-item border-0">
-                                                    <Link to="#" className="nav-link p-0" onClick={() => document.getElementById('reviews').scrollIntoView({ behavior: 'smooth' })}>Review</Link>
+                                                    <Link to="#" className="nav-link p-0" onClick={() => document.getElementById('reviews').scrollIntoView({ behavior: 'smooth' })}></Link>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div id="overview">
-                                        <h4>Overview Of {item.name}</h4>
+                                        <h4>Descripcion general de {item.name}</h4>
                                         <div dangerouslySetInnerHTML={{ __html: item.htmltext }} />
                                     </div>
                                     <div className="spacer">
                                     </div>
                                     <div id="contact">
-                                        <h4>{item.name} Location &amp; Contact Information</h4>
+                                        <h4>{item.name} Ubicacion &amp; Informacion de Contacto</h4>
                                         <div className="sigma_contact-wrapper">
                                             <div className="sigma_contact-map">
                                                 <iframe title={item.name} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914406081493!2d2.292292615201654!3d48.85837360866272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sin!4v1571115084828!5m2!1sen!2sin" height={600} allowFullScreen>
