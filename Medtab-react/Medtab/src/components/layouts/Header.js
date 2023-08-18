@@ -28,7 +28,7 @@ class Header extends Navhelper {
                                         <li>
                                             <Link to="#">
                                                 <i className="fal fa-envelope" />
-                                                example@example.com
+                                                matute@pancho.com.ar
                                             </Link>
                                         </li>
                                         <li>
