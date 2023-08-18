@@ -11,7 +11,7 @@ class Home extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Medtab - Doctors Appointment Booking - React Template | {pagelocation}</title>
+                    <title>Medtab - Doctore Appointment Booking - React Template | {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"
