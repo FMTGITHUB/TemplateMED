@@ -8,7 +8,7 @@ class Doctorsidebar extends Component {
             <div className="sidebar mb-5">
                 {/* Category Widget */}
                 <div className="widget widget-categories">
-                    <h5 className="widget-title">Specialty</h5>
+                    <h5 className="widget-title">Especialidad</h5>
                     <ul>
                         {/* Data */}
                         {category.map((item, i) => (
