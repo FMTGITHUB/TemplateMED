@@ -95,7 +95,7 @@ class Footer extends Component {
                             </div>
                             <div className="col-lg-2 col-sm-3">
                                 <div className="sigma_footer-widget">
-                                    <h5 className="widget-title">Useful Links</h5>
+                                    <h5 className="widget-title">Links útiles</h5>
                                     <ul className="sigma_footer-links">
                                         <li>
                                             <Link to="/">Inicio</Link>
@@ -121,7 +121,7 @@ class Footer extends Component {
                                     <form>
                                         <input type="email" name="email" placeholder="Email" required />
                                         <button type="button" className="mt-3 btn-block">Subscribe</button>
-                                        <p className="mb-0 mt-3">Get The Latest Updates via email. Any time you may unsubscribe</p>
+                                        <p className="mb-0 mt-3">Obtené las últimas actualizaciones via mail. Podés desuscribirte en cualquier momento</p>
                                     </form>
                                 </div>
                             </div>
@@ -136,16 +136,16 @@ class Footer extends Component {
                         </div>
                         <ul className="sigma_footer-links">
                             <li>
-                                <Link to="#">Privacy</Link>
+                                <Link to="#">Privacidad</Link>
                             </li>
                             <li>
-                                <Link to="#">Terms</Link>
+                                <Link to="#">Términos</Link>
                             </li>
                             <li>
-                                <Link to="#">Sitemap</Link>
+                                <Link to="#">Mapa del sitio</Link>
                             </li>
                             <li>
-                                <Link to="#">Help</Link>
+                                <Link to="#">Ayuda</Link>
                             </li>
                         </ul>
                     </div>
