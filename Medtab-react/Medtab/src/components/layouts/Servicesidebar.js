@@ -9,7 +9,7 @@ class Servicesidebar extends Component {
             <div className="sidebar">
                 {/* Category Widget */}
                 <div className="widget widget-categories">
-                    <h5 className="widget-title">Categories</h5>
+                    <h5 className="widget-title">Categorías</h5>
                     <ul>
                         {/* Data */}
                         {category.map((item, i) => (
@@ -22,7 +22,7 @@ class Servicesidebar extends Component {
                 </div>
                 {/* Recent services Widget */}
                 <div className="widget widget-sigma-recent-posts">
-                    <h5 className="widget-title">Recent posts</h5>
+                    <h5 className="widget-title">Posteos recientes</h5>
                     {/* Data */}
                     {getRecentService().map((item, i) => (
                         <div className="sigma_recent-post" key={i}>
@@ -44,7 +44,7 @@ class Servicesidebar extends Component {
                 </div>
                 {/* Follow Widget */}
                 <div className="widget widget-follow">
-                    <h5 className="widget-title">Follow Us</h5>
+                    <h5 className="widget-title">Siguenos</h5>
                     <div className="social-buttons">
                         <Link to="#" className="btn-block sigma_btn">
                             <div className="follow-icon d-flex align-items-center">
@@ -97,7 +97,7 @@ class Servicesidebar extends Component {
                 </div>
                 {/* Subscribe Widget */}
                 <div className="widget widget-newsletter">
-                    <h5 className="widget-title">Join Newsletter</h5>
+                    <h5 className="widget-title">Unirse al boletín informativo</h5>
                     <form>
                         <input type="email" name="email" placeholder="Enter your email" required />
                         <button type="button" className="btn-block mt-4">Subscribe</button>

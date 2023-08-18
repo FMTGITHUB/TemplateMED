@@ -2,25 +2,25 @@
     {
         "id":1,
         "icon":"fal fa-procedures",
-        "title":"Happy Customers",
+        "title":"Clientes satisfechos",
         "value":3500
     },
     {
         "id":2,
         "icon":"fal fa-file-medical-alt",
-        "title":"Project Done",
+        "title":"Proyectos realizados",
         "value":541
     },
     {
         "id":3,
         "icon":"fal fa-heartbeat",
-        "title":"Awards Win",
+        "title":"Premios ganados",
         "value":40
     },
     {
         "id":4,
         "icon":"fal fa-ambulance",
-        "title":"Clients Work",
+        "title":"Clientes trabajados",
         "value":678
     }
 ]
