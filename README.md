@@ -3,5 +3,5 @@
 ### Socios
 
 * Francisco "Pancho" Mattiozzi
-* Matías "Matute" Lamónico
+* Matías "Matute" Lamónico a
 * Tomás "Toto" Paradelo p
