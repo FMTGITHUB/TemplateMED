@@ -8,7 +8,7 @@ class Whyus extends Component {
                 <div className="col-lg-5 order-2 order-lg-1">
                     <div className="sigma_about style-21">
                         <div className="section-title">
-                            <h3 className="title text-white">Why Choose Medtab Clinic?</h3>
+                            <h3 className="title text-white">¿Por qué elegir Medtab Clinic?</h3>
                         </div>
                         <div className="sigma_about-content">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. It is a long established fact that a reader

@@ -1,14 +1,14 @@
 [
     {
         "id":1,
-        "title":"Quality Control System",
+        "title":"Sistemas de controles de calidad",
         "icon":"flaticon-heartbeat",
-        "text":"It is a long established fact that a reader will be distracted by the readable content."
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
     },
     {
         "id":2,
-        "title":"Highly Professional Staff",
+        "title":"Personal altamente capacitado",
         "icon":"flaticon-group",
-        "text":"It is a long established fact that a reader will be distracted by the readable content."
+        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
     }
 ]
