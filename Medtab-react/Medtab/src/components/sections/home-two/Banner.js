@@ -15,7 +15,7 @@ class Banner extends Component {
                                 <div className="col-lg-6">
                                     <h5 className="primary-color">Markets &amp; Resources</h5>
                                     <h1 className="title">
-                                        Find The Best Doctor near By You
+                                        Encuentra el mejor doctor cercano
                                     </h1>
                                     <div className="banner-links d-flex align-items-center">
                                         <Link to="/contact" className="sigma_btn">Get a Quote</Link>

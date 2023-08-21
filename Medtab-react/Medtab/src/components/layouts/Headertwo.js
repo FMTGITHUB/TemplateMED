@@ -102,7 +102,7 @@ class Headertwo extends Navhelper {
                                         <ul className="sigma_header-controls-inner">
                                             <li className="d-none d-sm-block ml-5">
                                                 <Link to="/doctor-grid" className="sigma_btn btn-sm">
-                                                    Find A Doctor
+                                                    Encuentra un doctor
                                                     <i className="fal fa-plus ml-3" />
                                                 </Link>
                                             </li>
