@@ -120,7 +120,7 @@ class Content extends Component {
                                     <div className="spacer">
                                     </div>
                                     <div id="reviews">
-                                        <h4>Patient Experience</h4>
+                                        <h4>Reseñas</h4>
                                         {/* Data */}
                                         {item.reviews.map((review, i) => (
                                             <div className="sigma_testimonial style-14" key={i}>
@@ -152,7 +152,7 @@ class Content extends Component {
                                         ))}
                                         {/* Data */}
                                         <button type="button" className="sigma_btn">
-                                            See More
+                                            Ver más
                                             <i className="fal fa-arrow-right" />
                                         </button>
                                     </div>
@@ -164,15 +164,15 @@ class Content extends Component {
                             <div className="sidebar style-10 mt-5 mt-lg-0">
                                 {/* form Widget */}
                                 <div className="widget widget-form">
-                                    <h5 className="widget-title">Booking Summary</h5>
+                                    <h5 className="widget-title">Resumen de la reserva</h5>
                                     <div className="widget-inner">
                                         <form>
-                                            <label>Date</label>
+                                            <label>Fecha</label>
                                             <div className="form-group">
                                                 <i className="fal fa-calendar-alt" />
                                                 <input type="text" name="date" data-provide="datepicker" placeholder="07/10/2022" />
                                             </div>
-                                            <label>Time</label>
+                                            <label>Hora</label>
                                             <div className="form-group mb-0">
                                                 <i className="far fa-clock" />
                                                 <input type="text" name="time" placeholder="08:30 PM" />
@@ -183,7 +183,7 @@ class Content extends Component {
                                     <div className="widget-inner widget-service">
                                         <form>
                                             <div className="form-group">
-                                                <label>Choose Service</label>
+                                                <label>Elija servicio</label>
                                                 <ul>
                                                     <li className="d-flex justify-content-between mb-3">
                                                         <div className="d-flex">
@@ -197,19 +197,19 @@ class Content extends Component {
                                                             <input type="checkbox" id="checkbox1" name="checkbox" />
                                                             <label className="mb-0" htmlFor="checkbox1">Lorem ipsum dolor</label>
                                                         </div>
-                                                        <span>$80</span>
+                                                        <span>$100</span>
                                                     </li>
                                                     <li className="d-flex justify-content-between">
                                                         <div className="d-flex">
                                                             <input type="checkbox" id="checkbox2" name="checkbox" />
                                                             <label className="mb-0" htmlFor="checkbox2">Lorem ipsum dolor</label>
                                                         </div>
-                                                        <span>$80</span>
+                                                        <span>$150</span>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <Link to="/appointment" className="sigma_btn btn-block btn-sm">
-                                                Book Appointment
+                                                Reservar una cita
                                                 <i className="fal fa-arrow-right ml-3" />
                                             </Link>
                                         </form>
@@ -217,22 +217,22 @@ class Content extends Component {
                                 </div>
                                 {/* form Widget 2 */}
                                 <div className="widget">
-                                    <h5 className="widget-title">Get in Touch</h5>
+                                    <h5 className="widget-title">Ponerse en contacto</h5>
                                     <div className="widget-inner">
                                         <form>
                                             <div className="form-group">
                                                 <i className="fal fa-user" />
-                                                <input type="text" name="fname" placeholder="Name" required />
+                                                <input type="text" name="fname" placeholder="Nombre" required />
                                             </div>
                                             <div className="form-group">
                                                 <i className="fal fa-envelope" />
                                                 <input type="email" name="email" placeholder="Email" required />
                                             </div>
                                             <div className="form-group">
-                                                <textarea name="message" rows={5} placeholder="Message" required />
+                                                <textarea name="message" rows={5} placeholder="Mensaje" required />
                                             </div>
                                             <button type="button" className="sigma_btn btn-block btn-sm">
-                                                Send Message
+                                                Enviar mensaje
                                                 <i className="fal fa-arrow-right ml-3" />
                                             </button>
                                         </form>
@@ -240,7 +240,7 @@ class Content extends Component {
                                 </div>
                                 {/* Contact Widget */}
                                 <div className="widget">
-                                    <h5 className="widget-title">Contact</h5>
+                                    <h5 className="widget-title">Contacto</h5>
                                     <div className="widget-inner">
                                         <div className="sigma_info style-24 p-0 shadow-none">
                                             <div className="sigma_info-title">
@@ -249,8 +249,8 @@ class Content extends Component {
                                                 </span>
                                             </div>
                                             <div className="sigma_info-description">
-                                                <h5>Our Phone</h5>
-                                                <p>Phone No.: {item.phone}</p>
+                                                <h5>Nuestro Teléfono</h5>
+                                                <p>N° Teléfono: {item.phone}</p>
                                             </div>
                                         </div>
                                         <div className="sigma_info style-24 p-0 shadow-none">
@@ -260,8 +260,8 @@ class Content extends Component {
                                                 </span>
                                             </div>
                                             <div className="sigma_info-description">
-                                                <h5>Our Email</h5>
-                                                <p>Inquiries: {item.email}</p>
+                                                <h5>Nuestro Email</h5>
+                                                <p>Consultas: {item.email}</p>
                                             </div>
                                         </div>
                                         <div className="sigma_info style-24 p-0 shadow-none mb-0">
@@ -271,7 +271,7 @@ class Content extends Component {
                                                 </span>
                                             </div>
                                             <div className="sigma_info-description">
-                                                <h5>Our Address</h5>
+                                                <h5>Nuestra dirección</h5>
                                                 <p>{item.location}</p>
                                             </div>
                                         </div>
