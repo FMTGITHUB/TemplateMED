@@ -37,18 +37,18 @@ class Searchform extends Component {
                             <div className="row no-gutters">
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>Search Topic</label>
-                                        <input type="text" className="topic-field" placeholder="Search doctors, clinic, Hospitals etc." value={this.state.topic} onChange={this.onTopicChange} required />
+                                        <label>Tema de búsqueda</label>
+                                        <input type="text" className="topic-field" placeholder="Encuentra doctor, clinica, hospital etc." value={this.state.topic} onChange={this.onTopicChange} required />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="form-group">
-                                        <label>Location</label>
+                                        <label>Ubicación</label>
                                         <div className="input-group">
                                             <i className="fal fa-map-marker-alt d-none d-sm-block" />
-                                            <input type="text" className="location-field" placeholder="Location" value={this.state.location} onChange={this.onLocationChange} required />
+                                            <input type="text" className="location-field" placeholder="Ubicación" value={this.state.location} onChange={this.onLocationChange} required />
                                             <div className="input-group-append">
-                                                <button type="submit"> <i className="fal fa-search mr-1" /> Find Now</button>
+                                                <button type="submit"> <i className="fal fa-search mr-1" /> Buscar</button>
                                             </div>
                                         </div>
                                     </div>

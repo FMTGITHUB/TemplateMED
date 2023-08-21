@@ -38,11 +38,11 @@ class Banner extends Component {
                                                 <h1 className="title text-white" dangerouslySetInnerHTML={{ __html: item.title }} />
                                                 <div className="banner-links d-flex align-items-center justify-content-center">
                                                     <Link to="/doctor-grid" className="sigma_btn">
-                                                        Find A Doctor
+                                                        Encuentra un doctor
                                                         <i className="fal fa-plus ml-3 d-none d-sm-inline-block" />
                                                     </Link>
                                                     <Link to="/about" className="sigma_btn light ml-4">
-                                                        Read More
+                                                        Leer más
                                                         <i className="fal fa-plus ml-3 d-none d-sm-inline-block" />
                                                     </Link>
                                                 </div>
