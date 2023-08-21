@@ -19,7 +19,7 @@ class Servicesimage extends Component {
                                 </h5>
                                 <p>{item.shorttext.slice(0, 95)}</p>
                                 <Link to={"/service-details/" + item.id} className="btn-link primary-color">
-                                    Read More
+                                    Leer más
                                     <i className="fal fa-arrow-right" />
                                 </Link>
                             </div>

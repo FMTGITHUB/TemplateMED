@@ -21,7 +21,7 @@ class Services extends Component {
                                         </h5>
                                         <p>{item.shorttext.slice(0, 70)}</p>
                                         <Link to={"/service-details/" + item.id} className="btn-link primary-color">
-                                            Read More
+                                        Leer más
                                             <i className="far fa-long-arrow-alt-right" />
                                         </Link>
                                     </div>

@@ -27,7 +27,7 @@ class Footer extends Component {
                                 </span>
                             </div>
                             <div className="sigma_info-description">
-                                <p>Call Us</p>
+                                <p>Llámanos</p>
                                 <p className="secondary-color"><b>360-779-2228</b>
                                 </p>
                             </div>
@@ -39,7 +39,7 @@ class Footer extends Component {
                                 </span>
                             </div>
                             <div className="sigma_info-description">
-                                <p>Our Mail</p>
+                                <p>Nuestro mail</p>
                                 <p className="secondary-color"><b>example@example.com</b>
                                 </p>
                             </div>
@@ -56,8 +56,7 @@ class Footer extends Component {
                                     </div>
                                     <div className="row">
                                         <div className="col-sm-9">
-                                            <p className="mb-0">It is a long established fact that a reader will be distracted by the
-                                                readable.</p>
+                                            <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                                         </div>
                                     </div>
                                     <ul className="sigma_social-icons has-border mt-4 justify-content-start">
@@ -81,7 +80,7 @@ class Footer extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-3">
                                 <div className="sigma_footer-widget">
-                                    <h5 className="widget-title">Services</h5>
+                                    <h5 className="widget-title">Servicios</h5>
                                     <ul className="sigma_footer-links">
                                         {/* Data */}
                                         {serviceblock.slice(0, 5).map((item, i) => (
@@ -117,10 +116,10 @@ class Footer extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="sigma_footer-widget">
-                                    <h5 className="widget-title">Subscribe</h5>
+                                    <h5 className="widget-title">Suscribirse</h5>
                                     <form>
                                         <input type="email" name="email" placeholder="Email" required />
-                                        <button type="button" className="mt-3 btn-block">Subscribe</button>
+                                        <button type="button" className="mt-3 btn-block">Suscribirse</button>
                                         <p className="mb-0 mt-3">Obtené las últimas actualizaciones via mail. Podés desuscribirte en cualquier momento</p>
                                     </form>
                                 </div>

@@ -1,22 +1,22 @@
 [
     {
         "id":1,
-        "title":"Destinations"
+        "title":"Destinos"
     },
     {
         "id":2,
-        "title":"Hotels"
+        "title":"Hoteles"
     },
     {
         "id":3,
-        "title":"News"
+        "title":"Noticias"
     },
     {
         "id":4,
-        "title":"StartUp"
+        "title":"Puesta en marcha"
     },
     {
         "id":5,
-        "title":"Strategy"
+        "title":"Estrategia"
     }
 ]
