@@ -7,8 +7,8 @@ class Servicestwo extends Component {
         return (
             <div className="container">
                 <div className="section-title centered">
-                    <span className="subtitle text-white">What We Do</span>
-                    <h3 className="title text-white">Services for You</h3>
+                    <span className="subtitle text-white">Qué hacemos</span>
+                    <h3 className="title text-white">Servicios para usted</h3>
                 </div>
                 <div className="row">
                     {/* Data */}

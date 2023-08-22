@@ -13,12 +13,12 @@ class Banner extends Component {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
-                                    <h5 className="primary-color">Markets &amp; Resources</h5>
+                                    <h5 className="primary-color">Mercado y recursos</h5>
                                     <h1 className="title">
-                                        Encuentra el mejor doctor cercano
+                                        Encuentra a tu especialista
                                     </h1>
                                     <div className="banner-links d-flex align-items-center">
-                                        <Link to="/contact" className="sigma_btn">Get a Quote</Link>
+                                        <Link to="/contact" className="sigma_btn">Consigue una cotización</Link>
                                         <Link to="/about" className="sigma_btn light ml-4">Leer más</Link>
                                     </div>
                                 </div>
