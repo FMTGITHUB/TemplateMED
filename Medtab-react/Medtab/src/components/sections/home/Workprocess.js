@@ -10,8 +10,8 @@ class Workprocess extends Component {
                     <div className="row align-items-center mb-5">
                         <div className="col-lg-5">
                             <div className="section-title">
-                                <span className="subtitle">Work Process</span>
-                                <h3 className="title mb-0">How it Works?</h3>
+                                <span className="subtitle">Proceso de trabajo</span>
+                                <h3 className="title mb-0">¿Cómo funciona?</h3>
                             </div>
                         </div>
                         <div className="col-lg-4">
@@ -19,7 +19,7 @@ class Workprocess extends Component {
                                 ante ipsum primis.</p>
                         </div>
                         <div className="col-lg-3 text-lg-right">
-                            <Link to="/appointment" className="sigma_btn mt-4 mt-lg-0">Make Appointment</Link>
+                            <Link to="/appointment" className="sigma_btn mt-4 mt-lg-0">Programa tu cita</Link>
                         </div>
                     </div>
                     <div className="row sigma_info-wrapper style-25">
@@ -35,7 +35,7 @@ class Workprocess extends Component {
                                     <div className="sigma_info-description mt-4 mt-xl-0">
                                         <h5 dangerouslySetInnerHTML={{ __html: item.title }} />
                                         <p>{item.text}</p>
-                                        <span className="steps">Step {1 + i}</span>
+                                        <span className="steps">Paso {1 + i}</span>
                                         <span className="pulsive-dot" />
                                     </div>
                                 </div>

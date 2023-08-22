@@ -2,13 +2,13 @@
     {
         "id":1,
         "image":"assets/img/home-1/1920x1280.jpg",
-        "subtitle":"Mercado & Recursos",
-        "title":"Encuentra al mejor <br> doctor cercano."
+        "subtitle":"Mercado y Recursos",
+        "title":"Encuentra a tu <br> especialista"
     },
     {
         "id":2,
         "image":"assets/img/home-1/1920x1280-1.jpg",
-        "subtitle":"Mercado & Recursos",
-        "title":"Encuentra al mejor <br> doctor cercano."
+        "subtitle":"Mercado y Recursos",
+        "title":"Encuentra a tu <br> especialista"
     }
 ]

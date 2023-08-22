@@ -164,7 +164,7 @@ class Content extends Component {
                             <div className="sidebar style-10 mt-5 mt-lg-0">
                                 {/* form Widget 2 */}
                                 <div className="widget">
-                                    <h5 className="widget-title">Get in Touch</h5>
+                                    <h5 className="widget-title">Ponerse en contacto</h5>
                                     <div className="widget-inner">
                                         <form>
                                             <div className="form-group">
@@ -179,7 +179,7 @@ class Content extends Component {
                                                 <textarea name="message" rows={5} placeholder="Message" required />
                                             </div>
                                             <button type="button" className="sigma_btn btn-block btn-sm">
-                                                Send Message
+                                                Enviar mensaje
                                                 <i className="fal fa-arrow-right ml-3" />
                                             </button>
                                         </form>

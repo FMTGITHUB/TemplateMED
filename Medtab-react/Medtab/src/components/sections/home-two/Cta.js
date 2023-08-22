@@ -9,17 +9,17 @@ class Cta extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-5">
                                 <div className="sigma_cta-content">
-                                    <h3 className="mb-0 text-white">Get notified about the event! Subscribe Today</h3>
+                                    <h3 className="mb-0 text-white">¡Entérate del evento! Suscríbete hoy</h3>
                                 </div>
                             </div>
                             <div className="col-lg-7 mt-lg-0 mt-3">
                                 <form>
                                     <div className="input-group">
-                                        <input type="email" name="email" placeholder="Email Address" required />
+                                        <input type="email" name="email" placeholder="Dirección de correo" required />
                                         <div className="input-group-append">
                                             <button type="button" className="light">
                                                 <i className="fal fa-envelope mr-2" />
-                                                Subscribe
+                                                Suscribirse
                                             </button>
                                         </div>
                                     </div>

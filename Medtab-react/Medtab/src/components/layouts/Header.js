@@ -106,7 +106,7 @@ class Header extends Navhelper {
                                         </li>
                                         <li className="d-none d-sm-block">
                                             <Link to="/contact" className="sigma_btn btn-sm">
-                                                Get a Quote
+                                                Consigue una cotización
                                                 <i className="fal fa-arrow-right" />
                                             </Link>
                                         </li>

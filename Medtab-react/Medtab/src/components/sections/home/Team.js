@@ -44,8 +44,8 @@ class Team extends Component {
             <div className="section section-padding sigma_team-sec style-14 bg-gray">
                 <div className="container-fluid p-sm-0">
                     <div className="section-title centered">
-                        <span className="subtitle text-white">Meet Our Team</span>
-                        <h3 className="title text-white">Our Creative Team</h3>
+                        <span className="subtitle text-white">Conoce a nuestro equipo</span>
+                        <h3 className="title text-white">Nuestro equipo creativo</h3>
                     </div>
                     <Slider {...settings} className="sigma_team-slider-2">
                         {/* Data */}

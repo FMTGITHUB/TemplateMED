@@ -7,8 +7,8 @@ class Testimonials extends Component {
         return (
             <div className="container">
                 <div className="section-title centered">
-                    <span className="subtitle">Client Testimonials</span>
-                    <h3 className="title">What Our Clients Say</h3>
+                    <span className="subtitle">Testimonios de clientes</span>
+                    <h3 className="title">Lo que dicen nuestros clientes</h3>
                 </div>
                 <div className="row">
                     {/* Data */}

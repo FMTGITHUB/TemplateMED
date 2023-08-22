@@ -69,7 +69,7 @@ class Content extends Component {
                             </h5>
                         </div>
                         <Link to={"/blog-details/" + item.id} className="btn-link">
-                            Read more
+                            Leer más
                         </Link>
                     </div>
                 </article>
