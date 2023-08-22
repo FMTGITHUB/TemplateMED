@@ -32,9 +32,9 @@ class Doctorsidebar extends Component {
                     <h5 className="widget-title">Género</h5>
                     <input type="radio" name="gendorDoctor" defaultValue="nopreference" id="genderDoctor" />
                     <label htmlFor="genderDoctor">Sin preferencias</label>
-                    <input type="radio" name="gendorDoctor" defaultValue="female" id="genderDoctor1" />
+                    <input type="radio" name="gendorDoctor" defaultValue="femenino" id="genderDoctor1" />
                     <label htmlFor="genderDoctor1">Femenino</label>
-                    <input type="radio" name="gendorDoctor" defaultValue="male" id="genderDoctor2" />
+                    <input type="radio" name="gendorDoctor" defaultValue="masculino" id="genderDoctor2" />
                     <label className="mb-0" htmlFor="genderDoctor2">Masculino</label>
                 </div>
             </div>
