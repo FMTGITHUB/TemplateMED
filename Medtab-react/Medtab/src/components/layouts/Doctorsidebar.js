@@ -22,20 +22,20 @@ class Doctorsidebar extends Component {
                     </ul>
                 </div>
                 <div className="widget">
-                    <h5 className="widget-title">Apppointment availability</h5>
+                    <h5 className="widget-title">Disponibilidad de citas</h5>
                     <input type="checkbox" name="free" id="availabilityDoctors" />
-                    <label htmlFor="availabilityDoctors">Free doctors only</label>
+                    <label htmlFor="availabilityDoctors">Solo médicos gratis</label>
                     <input type="checkbox" name="unavailable" id="unavailableDoctors" />
-                    <label className="mb-0" htmlFor="unavailableDoctors">Unavailable doctors only</label>
+                    <label className="mb-0" htmlFor="unavailableDoctors">Sólo médicos no disponibles</label>
                 </div>
                 <div className="widget">
-                    <h5 className="widget-title">Gender</h5>
+                    <h5 className="widget-title">Género</h5>
                     <input type="radio" name="gendorDoctor" defaultValue="nopreference" id="genderDoctor" />
-                    <label htmlFor="genderDoctor">No Preference</label>
+                    <label htmlFor="genderDoctor">Sin preferencias</label>
                     <input type="radio" name="gendorDoctor" defaultValue="female" id="genderDoctor1" />
-                    <label htmlFor="genderDoctor1">Female</label>
+                    <label htmlFor="genderDoctor1">Femenino</label>
                     <input type="radio" name="gendorDoctor" defaultValue="male" id="genderDoctor2" />
-                    <label className="mb-0" htmlFor="genderDoctor2">Male</label>
+                    <label className="mb-0" htmlFor="genderDoctor2">Masculino</label>
                 </div>
             </div>
         );
