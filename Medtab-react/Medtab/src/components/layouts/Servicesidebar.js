@@ -90,9 +90,9 @@ class Servicesidebar extends Component {
                 </div>
                 <div className="widget widget-blockquote p-0 border-0">
                     <blockquote className="blockquote">
-                        <cite>Request a Quote</cite>
+                        <cite>Solicitar presupuesto</cite>
                         <p>Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
-                        <Link to="/contact" className="sigma_btn btn-sm">Request Quote</Link>
+                        <Link to="/contact" className="sigma_btn btn-sm">Solicita presupuesto</Link>
                     </blockquote>
                 </div>
                 {/* Subscribe Widget */}
@@ -100,7 +100,7 @@ class Servicesidebar extends Component {
                     <h5 className="widget-title">Unirse al boletín informativo</h5>
                     <form>
                         <input type="email" name="email" placeholder="Enter your email" required />
-                        <button type="button" className="btn-block mt-4">Subscribe</button>
+                        <button type="button" className="btn-block mt-4">Suscribirse</button>
                     </form>
                 </div>
             </div>

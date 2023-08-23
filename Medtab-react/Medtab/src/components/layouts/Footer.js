@@ -15,7 +15,7 @@ class Footer extends Component {
                                 </span>
                             </div>
                             <div className="sigma_info-description">
-                                <p>Tu casa</p>
+                                <p>Nuestra dirección</p>
                                 <p className="secondary-color"><b>Drive Buenos Aires, IL 60607</b>
                                 </p>
                             </div>
