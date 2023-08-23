@@ -13,9 +13,9 @@ class Content extends Component {
                         <div className="col-lg-5 text-center">
                             <div className="error-texts relative">
                                 <h1>404</h1>
-                                <h3>Ooops! That page doesn't exist!</h3>
-                                <p>This file May Have Been Moved or Deleted. Be Sure to Check Your Spelling.</p>
-                                <Link to="/" className="sigma_btn">Back to Home</Link>
+                                <h3>¡Uy! ¡Esa página no existe!</h3>
+                                <p>Es posible que este archivo se haya movido o eliminado. Asegúrese de revisar su ortografía.</p>
+                                <Link to="/" className="sigma_btn">Regrasar al inicio</Link>
                             </div>
                         </div>
                     </div>
