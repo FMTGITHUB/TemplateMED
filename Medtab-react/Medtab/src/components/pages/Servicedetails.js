@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/service-details/Content';
 
-const pagelocation = "Service Details";
+const pagelocation = "Detalle de Servicios";
 
 class Servicedetails extends Component {
     render() {

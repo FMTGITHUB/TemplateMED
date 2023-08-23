@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/blog/Content';
 
-const pagelocation = "Blog Grid";
+const pagelocation = "Blog";
 
 class Blog extends Component {
     render() {

@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/blog-standard/Content';
 
-const pagelocation = "Blog Standard";
+const pagelocation = "Blog Estandar";
 
 class Blogstandard extends Component {
     render() {
