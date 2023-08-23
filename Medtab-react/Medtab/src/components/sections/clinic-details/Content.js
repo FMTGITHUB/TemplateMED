@@ -120,7 +120,7 @@ class Content extends Component {
                                     <div className="spacer">
                                     </div>
                                     <div id="reviews">
-                                        <h4>Patient Experience</h4>
+                                        <h4>Experiencias de pacientes</h4>
                                         {/* Data */}
                                         {item.reviews.map((review, i) => (
                                             <div className="sigma_testimonial style-14" key={i}>
