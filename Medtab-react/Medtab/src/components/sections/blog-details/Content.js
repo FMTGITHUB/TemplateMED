@@ -28,7 +28,7 @@ class Content extends Component {
                                         <img src={process.env.PUBLIC_URL + "/" + item.image[0]} alt={item.title} className="w-100" />
                                         <div className="sigma_post-details-meta">
                                             {getAuthor(item.author).map((author, i) => (
-                                                <span key={i}> <i className="far fa-user" /> By
+                                                <span key={i}> <i className="far fa-user" /> Por 
                                                     {author.name}</span>
                                             ))}
                                             <span> <i className="far fa-calendar-alt" /> {item.postdate}</span>
@@ -71,7 +71,7 @@ class Content extends Component {
                                                                 <h5>{user.name}</h5>
                                                                 <span className="date"> {review.commentdate}</span>
                                                                 <p>{review.comment}</p>
-                                                                <Link to="#" className="btn-link"> Reply </Link>
+                                                                <Link to="#" className="btn-link"> Responder </Link>
                                                             </div>
                                                         ))}
                                                     </li>
@@ -87,7 +87,7 @@ class Content extends Component {
                                                                     <h5>{user.name}</h5>
                                                                     <span className="date"> {review.commentdate}</span>
                                                                     <p>{review.comment}</p>
-                                                                    <Link to="#" className="btn-link"> Reply </Link>
+                                                                    <Link to="#" className="btn-link"> Responder </Link>
                                                                 </div>
                                                             ))}
                                                         </li>
@@ -98,7 +98,7 @@ class Content extends Component {
                                         </div>
                                     </div>
                                     <div className="section">
-                                        <h3>Leave a Reply</h3>
+                                        <h3>Deja un comentario</h3>
                                         <div className="comment-form">
                                             <form>
                                                 <div className="row">
@@ -116,8 +116,7 @@ class Content extends Component {
                                                         <div className="form-group">
                                                             <textarea className="form-control" placeholder="Enter Comment here" name="comment" rows={7} required />
                                                         </div>
-                                                        <button type="submit" className="sigma_btn-custom" name="button">Post
-                                                            Comment</button>
+                                                        <button type="submit" className="sigma_btn-custom" name="button">Comentario del posteo</button>
                                                     </div>
                                                 </div>
                                             </form>

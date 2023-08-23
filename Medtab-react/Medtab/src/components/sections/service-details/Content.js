@@ -44,7 +44,7 @@ class Content extends Popuphelper {
                                     {/* Post Meta Start */}
                                     <div className="sigma_post-details-meta">
                                         <div className="sigma_post-details-meta-item sigma_post-share">
-                                            <h5>Share</h5>
+                                            <h5>Comparte</h5>
                                             <ul className="sigma_sm">
                                                 {/* Data */}
                                                 {socialShare(item.title).map((social, i) => (

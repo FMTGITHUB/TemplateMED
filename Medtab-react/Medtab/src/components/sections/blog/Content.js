@@ -48,7 +48,7 @@ class Content extends Component {
                                         <li key={i}>
                                             <Link to={"/blog/author/" + author.id}>
                                                 <i className="fal fa-user" />
-                                                By {author.name}
+                                                Por {author.name}
                                             </Link>
                                         </li>
                                     ))}

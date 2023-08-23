@@ -24,17 +24,17 @@
             {
                 "id": 2.1,
                 "link": "/blog",
-                "linkText": "Blog Grid"
+                "linkText": "Blog Grilla"
             },
             {
                 "id": 2.2,
                 "link": "/blog-standard",
-                "linkText": "Blog Standard"
+                "linkText": "Blog Estandar"
             },
             {
                 "id": 2.3,
                 "link": "/blog-details/1",
-                "linkText": "Blog Details"
+                "linkText": "Blog Detalles"
             }
         ]
     },
@@ -66,7 +66,7 @@
             {
                 "id": 3.5,
                 "link": "/appointment",
-                "linkText": "Book Appointment"
+                "linkText": "Turnos"
             },
             {
                 "id": 3.6,
@@ -83,17 +83,17 @@
             {
                 "id": 4.1,
                 "link": "/clinic-grid",
-                "linkText": "Clinics Grid"
+                "linkText": "Grila de Clínicas"
             },
             {
                 "id": 4.2,
                 "link": "/clinic-list",
-                "linkText": "Clinics List"
+                "linkText": "Lista de Clínicas"
             },
             {
                 "id": 4.3,
                 "link": "/clinic-details/1",
-                "linkText": "Clinics Details"
+                "linkText": "Detalles de Clínicas"
             }
         ]
     },
@@ -105,17 +105,17 @@
             {
                 "id": 5.1,
                 "link": "/doctor-grid",
-                "linkText": "Doctors Grid"
+                "linkText": "Grila de Doctores"
             },
             {
                 "id": 5.2,
                 "link": "/doctor-list",
-                "linkText": "Doctors List"
+                "linkText": "Lista de Doctores"
             },
             {
                 "id": 5.3,
                 "link": "/doctor-details/1",
-                "linkText": "Doctors Details"
+                "linkText": "Detalles de Doctores"
             }
         ]
     },
