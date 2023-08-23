@@ -15,7 +15,7 @@ class Banner extends Component {
                                 <div className="col-lg-6">
                                     <h5 className="primary-color">Mercado y recursos</h5>
                                     <h1 className="title">
-                                        Encuentra a tu especialista
+                                        Encuentra tu especialista
                                     </h1>
                                     <div className="banner-links d-flex align-items-center">
                                         <Link to="/contact" className="sigma_btn">Consigue una cotización</Link>

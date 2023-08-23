@@ -103,12 +103,12 @@ class Content extends Component {
                                 <div className="col-lg-8">
                                     <div className="sigma_form style-7">
                                         <div className="form-block">
-                                            <h4>Your Information:</h4>
+                                            <h4>Tu información:</h4>
                                             <div className="row">
                                                 <div className="col-lg-6">
                                                     <div className="form-group">
                                                         <i className="fal fa-user" />
-                                                        <input type="text" value={this.state.fullname} onChange={this.fullname} placeholder="Patient Name" />
+                                                        <input type="text" value={this.state.fullname} onChange={this.fullname} placeholder="Nombre del paciente" />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6">
@@ -120,26 +120,26 @@ class Content extends Component {
                                                 <div className="col-lg-6">
                                                     <div className="form-group">
                                                         <i className="fal fa-calendar-alt" />
-                                                        <input type="text" value={this.state.dateofbirth} onChange={this.dateofbirth} data-provide="datepicker" placeholder="Date of Birth" />
+                                                        <input type="text" value={this.state.dateofbirth} onChange={this.dateofbirth} data-provide="datepicker" placeholder="Fecha de nacimiento" />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <div className="form-group">
                                                         <i className="fal fa-phone" />
-                                                        <input type="text" value={this.state.phoneno} onChange={this.phoneno} placeholder="Phone Number" />
+                                                        <input type="text" value={this.state.phoneno} onChange={this.phoneno} placeholder="Numero de teléfono" />
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="form-block d-flex">
-                                            <h4 className="mb-0 mr-4">Gender:</h4>
+                                            <h4 className="mb-0 mr-4">Género:</h4>
                                             <div className="d-flex align-items-center">
                                                 <input type="radio" id="radio" value={this.state.gender} onChange={this.gender} />
-                                                <label className="mb-0" htmlFor="radio">Male</label>
+                                                <label className="mb-0" htmlFor="radio">Masculino</label>
                                             </div>
                                             <div className="d-flex align-items-center ml-4">
                                                 <input type="radio" id="radio2" value={this.state.gender} onChange={this.gender} />
-                                                <label className="mb-0" htmlFor="radio2">Female</label>
+                                                <label className="mb-0" htmlFor="radio2">Femenino</label>
                                             </div>
                                         </div>
                                         <div className="form-block">
@@ -147,7 +147,7 @@ class Content extends Component {
                                                 <div className="col-12">
                                                     <div className="form-group">
                                                         <select value={this.state.hospital} onChange={this.hospital}>
-                                                            <option value={1}>Select Hospital</option>
+                                                            <option value={1}>Elegir Hospital</option>
                                                             <option value={2}>Hospital 1</option>
                                                             <option value={3}>Hospital 2</option>
                                                             <option value={4}>Hospital 3</option>
@@ -157,7 +157,7 @@ class Content extends Component {
                                                 <div className="col-12">
                                                     <div className="form-group">
                                                         <select value={this.state.service} onChange={this.service}>
-                                                            <option value={1}>Select Service</option>
+                                                            <option value={1}>Elegir servicio</option>
                                                             <option value={2}>Service 1</option>
                                                             <option value={3}>Service 2</option>
                                                             <option value={4}>Service 3</option>
@@ -167,34 +167,34 @@ class Content extends Component {
                                                 <div className="col-12">
                                                     <div className="form-group">
                                                         <i className="fal fa-calendar-alt" />
-                                                        <input type="text" value={this.state.date} onChange={this.date} data-provide="datepicker" placeholder="Select Date" />
+                                                        <input type="text" value={this.state.date} onChange={this.date} data-provide="datepicker" placeholder="Elegir fecha" />
                                                     </div>
                                                 </div>
                                                 <div className="col-12">
                                                     <div className="form-group">
                                                         <i className="fal fa-user-md" />
-                                                        <input type="text" value={this.state.doctor} onChange={this.doctor} placeholder="Select Doctor" />
+                                                        <input type="text" value={this.state.doctor} onChange={this.doctor} placeholder="Elegir Doctor" />
                                                     </div>
                                                 </div>
                                                 <div className="col-12">
                                                     <div className="form-group">
-                                                        <textarea value={this.state.remarks} onChange={this.remarks} rows={7} placeholder="Note To The Doctor(Optional)" />
+                                                        <textarea value={this.state.remarks} onChange={this.remarks} rows={7} placeholder="Nota para el doctor(opcional)" />
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="form-block mb-0">
-                                            <h4>Payment Information:</h4>
+                                            <h4>Información de Pago:</h4>
                                             <div className="row">
                                                 <div className="col-12">
                                                     <div className="form-group">
-                                                        <label>Name On Card</label>
+                                                        <label>Nombre en la tarjeta</label>
                                                         <input type="text" value={this.state.cardName} onChange={this.cardName} placeholder="Dorothy Schneider" />
                                                     </div>
                                                 </div>
                                                 <div className="col-12">
                                                     <div className="form-group">
-                                                        <label>Card Number</label>
+                                                        <label>Número de tarjeta</label>
                                                         <div className="payment-card-wrapper d-block d-sm-flex align-items-center">
                                                             <input type="text" value={this.state.cardNumber} onChange={this.cardNumber} placeholder="xxxx-xxxx-xxxx-xxxx" />
                                                             <div className="card-image">
@@ -205,13 +205,13 @@ class Content extends Component {
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <div className="form-group">
-                                                        <label>Expiration Date</label>
+                                                        <label>Fecha de caducidad</label>
                                                         <input type="text" value={this.state.expDate} onChange={this.expDate} placeholder="mm/yy" data-provide="datepicker" />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <div className="form-group">
-                                                        <label>Security Code</label>
+                                                        <label>Código de seguridad</label>
                                                         <input type="text" value={this.state.cardCvv} onChange={this.cardCvv} placeholder="CCV" />
                                                     </div>
                                                 </div>
@@ -219,7 +219,7 @@ class Content extends Component {
                                         </div>
                                         <div className="d-flex align-items-center mt-2">
                                             <input type="checkbox" id="checkbox" value={this.state.condition} onChange={this.condition} />
-                                            <label className="mb-0" htmlFor="checkbox">I accept <Link to="#">Terms</Link> and <Link to="#">conditions</Link> and general policy</label>
+                                            <label className="mb-0" htmlFor="checkbox">Acepto <Link to="#">Términos</Link> y <Link to="#">Condiciones</Link> y política general</label>
                                         </div>
                                     </div>
                                 </div>
@@ -227,18 +227,18 @@ class Content extends Component {
                                     <div className="sidebar style-10 mt-5 mt-lg-0">
                                         {/* Booking Widget */}
                                         <div className="widget widget-booking">
-                                            <h5 className="widget-title">Booking Summary</h5>
+                                            <h5 className="widget-title">Resumen de reserva</h5>
                                             <ul>
                                                 <li className="d-flex align-items-center justify-content-between">
-                                                    <span>Date</span>
+                                                    <span>Fecha</span>
                                                     <span>07/10/2022</span>
                                                 </li>
                                                 <li className="d-flex align-items-center justify-content-between">
-                                                    <span>Time</span>
+                                                    <span>Hora</span>
                                                     <span>08:30 PM</span>
                                                 </li>
                                                 <li className="d-flex align-items-center justify-content-between">
-                                                    <span>Doctor Name</span>
+                                                    <span>Nombre del doctor</span>
                                                     <span>Dr. Joseph Doe</span>
                                                 </li>
                                             </ul>
@@ -261,7 +261,7 @@ class Content extends Component {
                                                 </li>
                                                 <li className="d-flex align-items-center justify-content-between">
                                                     <button type="submit" className="sigma_btn btn-block btn-sm mt-4">
-                                                        Confirm and Pay
+                                                        Confirmar y pagar
                                                         <i className="fal fa-arrow-right ml-3" />
                                                     </button>
                                                 </li>
