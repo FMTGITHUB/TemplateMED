@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/doctor-grid/Content';
 
-const pagelocation = "Doctor Grid";
+const pagelocation = "Grilla de Doctores";
 
 class Doctorgrid extends Component {
     render() {
