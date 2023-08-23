@@ -60,8 +60,7 @@ class Content extends Component {
                                 {item.location}
                             </span>
                         </div>
-                        <Link to={"/clinic-details/" + item.id} className="sigma_btn btn-block btn-sm">View
-                            More</Link>
+                        <Link to={"/clinic-details/" + item.id} className="sigma_btn btn-block btn-sm">Ver Más</Link>
                     </div>
                 </div>
             </div>

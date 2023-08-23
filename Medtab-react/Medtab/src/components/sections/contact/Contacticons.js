@@ -28,8 +28,8 @@ class Contacticons extends Component {
                                 </div>
                                 <div className="sigma_info-description">
                                     <h5>Nuestro Telefono</h5>
-                                    <p>Telephone: 0029129102320</p>
-                                    <p>Mobile: 000 2324 39493</p>
+                                    <p>Telefono: 0029129102320</p>
+                                    <p>Celular: 000 2324 39493</p>
                                 </div>
                             </div>
                         </div>
@@ -42,8 +42,8 @@ class Contacticons extends Component {
                                 </div>
                                 <div className="sigma_info-description">
                                     <h5>Nuestro Email</h5>
-                                    <p>Main Email: example@example.com</p>
-                                    <p>Inquiries: example@example.com</p>
+                                    <p>Email: example@example.com</p>
+                                    <p>Consultas: example@example.com</p>
                                 </div>
                             </div>
                         </div>
