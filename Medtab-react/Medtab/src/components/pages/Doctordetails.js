@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/doctor-details/Content';
 
-const pagelocation = "Doctor Details";
+const pagelocation = "Detalles de los Doctores";
 
 class Doctordetails extends Component {
     render() {

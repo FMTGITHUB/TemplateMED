@@ -5,7 +5,7 @@ import Breadcrumbs from '../layouts/Breadcrumbs';
 import Footer from '../layouts/Footer';
 import Content from '../sections/clinic-grid/Content';
 
-const pagelocation = "Clinic Grid";
+const pagelocation = "Clínicas";
 
 class Clinicgrid extends Component {
     render() {
