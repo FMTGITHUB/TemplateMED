@@ -57,7 +57,7 @@ class Content extends Component {
                                     {/* Post Meta End */}
                                     {/* Comments Start */}
                                     <div className="section pb-0">
-                                        <h3>Comments</h3>
+                                        <h3>Comentarios</h3>
                                         <div className="comments-list">
                                             {item.reviews.map((review, i) => (
                                                 <ul key={i}>

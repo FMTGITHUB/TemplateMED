@@ -36,7 +36,7 @@ class Blogs extends Component {
                                                         <li key={i}>
                                                             <Link to={"/blog/author/" + author.id}>
                                                                 <i className="fal fa-user" />
-                                                                Por {author.name}
+                                                                a {author.name}
                                                             </Link>
                                                         </li>
                                                     ))}
